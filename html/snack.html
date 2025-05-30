@@ -2,10 +2,26 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>한비's web</title>
-  <link rel="stylesheet" href="./css/mystyle.css">
-  <style> </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>온라인 이력서</title>
+  <link rel="stylesheet" href="../css/mystyle.css">
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
 </head>
 <body>
   <svg height="120" width="100%">
@@ -19,11 +35,11 @@
       </linearGradient>
     </defs>
     <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
-    <text fill="black" font-size="60" font-family="Lato", sans-serif; x="50" y="80">10000_bee's Travel Log in Japan</text>
+    <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">10000_bee's Travel Log in Japan</text>
     Sorry, your browser does not support inline SVG.
   </svg>
     
-  <ul>
+   <ul>
     <li><a class="active" href="https://nimo412.github.io/25web/">Home</a></li>
     <li class="dropdown">
       <a href="#" class="dropbtn">여행지 추천</a>
@@ -51,12 +67,44 @@
     </li>
   </ul>
 
-  <div>
-    <h1 >환영합니다.</h1>
-    <img src="./image/cwu.jpg" alt="청운대학교 사진">
-  </div>
-  <p><strong>이 사이트는 여러분의 일본 여행을 조금이라도 돕기 위해 만들어졌습니다.</strong></p>
-  <p>저의 일본여행을 바탕으로 제작하여 주관적일 수 있습니다.</p>
-  <p> 그럼 재밌게 즐겨주세요 😊</p>
+  <h2>홍길동의 이력서</h2>
+
+  <table>
+    <tr>
+      <th><img src="../image/lde.jpg" alt="나의 사진"></th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+  </table>  
 </body>
 </html>
