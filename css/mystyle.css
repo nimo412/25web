@@ -7,7 +7,7 @@ ul {
      overflow: visible; 은 오버클로우되는 콘텐츠를 잘라내지 않고 
      영역 범위 밖까지 콘텐츠를 출력함
      overflow: hidden은 오버클로우되는 콘텐츠를 잘라냄. */
-  background-color: #333;
+  background-color: #FFA5A5;
   position: sticky;
   top:0px;
   /* position: sticky는 미리 정의한 위치에 도달하기 전에는 
@@ -43,13 +43,13 @@ li a, .dropbtn {
      하지만 display: block 요소처럼 줄바꿈은 발생하지 않음.   
   */
   padding: 14px 16px;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #FF6961;
 }
 /*     
 li.dropdown {
