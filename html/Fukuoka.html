@@ -27,6 +27,16 @@
   background-color: green;
   height: 600px; /* only for demonstration, should be removed */
   }
+   .image-row {
+      display: flex;
+      justify-content: center;  /* 가운데 정렬 */
+      gap: 20px; /* 이미지 사이 간격 */
+    }
+    .image-row img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
   </style>
   </style>
 </head>
@@ -75,13 +85,14 @@
   </ul>
 
   <article>
-    <h1>나의 작품 1</h1>
-    <iframe width="420" height="315" 
-    src="https://www.youtube.com/embed/g5q11pDYTlk">
-    </iframe>
-
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1>후쿠오카</h1>
+    <div class="image-row">
+    <img src="../image/IMG_8574.JPG" alt="모모치해변">
+    <img src="../image/IMG_8183.JPG" alt="히타">
+    <img src="../image/IMG_8694.JPG" alt="후쿠오카 야경">
+  </div>
+    <p>후쿠오카는 일본 규슈 지역의 대표적인 도시로, 온화한 기후와 따뜻한 분위기가 매력적인 곳입니다.</p>
+    <p>맛있는 음식, 편리한 교통, 그리고 여유로운 도시 분위기로 많은 여행객들에게 사랑받고 있습니다.</p>
   </article>
   <aside> 
     <img src="../image/top.jpg" alt="관련 사이트" style="max-width: 100%;"/>

@@ -117,3 +117,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block; /* 마우스 오버시 드롭다운 메뉴가 보이도록 설정 */
 }
+
+.title{
+  font-size: 40px;
+}
+.image-row {
+      display: flex;
+      justify-content: center;  /* 가운데 정렬 */
+      gap: 20px; /* 이미지 사이 간격 */
+    }
+    .image-row img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
