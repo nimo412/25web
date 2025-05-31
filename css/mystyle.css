@@ -127,7 +127,7 @@ li.dropdown {
       gap: 20px; /* 이미지 사이 간격 */
     }
     .image-row img {
-      width: 50px;
+      width: 300px;
       height: auto;
       border-radius: 10px;
     }
