@@ -127,7 +127,23 @@ li.dropdown {
       gap: 20px; /* 이미지 사이 간격 */
     }
     .image-row img {
-      width: 300px;
+      width: 50px;
       height: auto;
       border-radius: 10px;
     }
+    .info-table {
+    border-collapse: collapse;
+    width: 400px;
+  }
+
+  .info-table th,
+  .info-table td {
+    border: 1px solid #d33;
+    padding: 8px;
+    text-align: left;
+  }
+  .info-table th {
+    background-color: #ffe5e5;
+    color: #a00;
+  }
+ 
