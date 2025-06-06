@@ -136,14 +136,19 @@ li.dropdown {
     width: 400px;
   }
 
-  .info-table th,
-  .info-table td {
+.info-table th,
+.info-table td {
     border: 1px solid #d33;
     padding: 8px;
     text-align: left;
   }
-  .info-table th {
+.info-table th {
     background-color: #ffe5e5;
     color: #a00;
   }
+  .content{
+    width: 80%;
+    margin: 0 auto;
+  }
+
  
