@@ -150,5 +150,13 @@ li.dropdown {
     width: 80%;
     margin: 0 auto;
   }
+  .photo-border {
+    width: 300px; /* 가로 고정 */
+    height: 200px; /* 세로 고정 */
+    object-fit: cover; /* 사진 비율을 유지하며 잘 맞게 자르기 */
+    border: 3px solid #ffb6c1;
+    border-radius: 8px;
+    margin: 10px;
+  }
 
  
