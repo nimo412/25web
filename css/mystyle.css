@@ -221,12 +221,6 @@ img {
   height: auto;
 }
 
-/* 링크 스타일 */
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 a:hover {
   color: #db4d6d;
 }
