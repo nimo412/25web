@@ -158,5 +158,12 @@ li.dropdown {
     border-radius: 8px;
     margin: 10px;
   }
+  ol {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #FF6F61; /* 숫자 색상 변경 */
+    font-weight: bold; /* 숫자 굵게 */
+}
+
 
  
